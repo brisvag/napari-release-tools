@@ -18,3 +18,7 @@ After deprecating it, we're finally removing this field completely ([#9218](http
 We previously hardcoded default font sizes for all visuals in the canvas. Now ([#8667](https://github.com/napari/napari/pull/8667), [#9524](https://github.com/napari/napari/pull/9524)), they respond to the global application settings (`Preferences > Appearance > Font size`) unless the font size is explicitly set for that specific model (by default it will be `None`).
 
 So if you use the `scale_bar`, or `Points.text` or other layers and overlays that display text and you don't like the new default, make sure to set your font size explicitly!
+
+### Key-bindings auto-repeat enabled by default
+
+With [#9361](https://github.com/napari/napari/pull/9361), key-binding callbacks are now auto-repeated as everthing else on your system. If your callbacks is a single-shot function, it will repeat when held; if it's a generator, it will behave as before. The flag `repeatable=True` no longer has an effect.
