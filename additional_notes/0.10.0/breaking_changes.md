@@ -21,4 +21,4 @@ So if you use the `scale_bar`, or `Points.text` or other layers and overlays tha
 
 ### Key-bindings auto-repeat enabled by default
 
-With [#9361](https://github.com/napari/napari/pull/9361), key-binding callbacks are now auto-repeated as everthing else on your system. If your callbacks is a single-shot function, it will repeat when held; if it's a generator, it will behave as before. The flag `repeatable=True` no longer has an effect.
+With [#9361](https://github.com/napari/napari/pull/9361), key-binding callbacks are now auto-repeated as everything else on your system. If your callbacks is a single-shot function, it will repeat when held; if it's a generator, it will behave as before. The flag `repeatable=True` no longer has an effect.
