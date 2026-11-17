@@ -2,7 +2,7 @@ This is a maintenance-focused release: it has few new features, but contains a t
 
 ### CI speedups and improvements
 
-Our automated testing and deploying machinery (CI) has accumulated slowness and technical debt over the years. During this release cycle, we tackled several of these issues (chief among them #9870) and cut test time on our pull request by up to half!
+Our automated testing and deploying machinery (CI) has accumulated slowness and technical debt over the years. During this release cycle, we tackled several of these issues (chief among them ([#9870](https://github.com/napari/napari/pull/9870))) and cut test time on our pull request by up to half!
 
 ### Various Performance enhancements
 
